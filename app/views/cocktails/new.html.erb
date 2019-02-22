@@ -1,7 +1,50 @@
-<h1>Add a Cocktail</h1>
+<header>
+
+        <div class="inside"></div>
+        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+        <label for="openSidebarMenu" class="sidebarIconToggle">
+          <div class="spinner diagonal part-1"></div>
+          <div class="spinner horizontal"></div>
+          <div class="spinner diagonal part-2"></div>
+        </label>
+        <div id="sidebarMenu">
+          <ul class="sidebarMenuInner">
+            <li><a href="#top">TOP</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#login">LOG IN</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+
+
+  <div class="overlay"></div>
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="https://res.cloudinary.com/rfujiwar23/video/upload/v1550797776/Pexels_Videos_4959.mp4" type="video/mp4">
+  </video>
+  <div class="container h-100">
+    <div class="d-flex h-100 text-center align-items-center">
+      <div class="w-100 text-white">
+        <h1 class="display-3">Create Your Cocktail</h1>
+        <p class="lead mb-0">Checkin' On Your Originality</p>
+      </div>
+    </div>
+  </div>
+
+
+</header>
+
+
+
+<div class="container">
+<div class="row">
+
+<div class="put_your">
 <%= simple_form_for(@cocktail) do |f| %>
   <%= f.input :name %>
   <%= f.input :photo %>
   <%= f.input :photo_cache, as: :hidden %>
   <%= f.submit class: "btn btn-primary" %>
 <% end %>
+<div>
+</div>
+</div>
