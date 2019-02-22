@@ -42,11 +42,13 @@
     <p><%= link_to "+ Add Your Own", new_cocktail_path, class: "btn btn-info" %><p>
 
 
-<%= image_tag "cocktail.jpg", alt: "Cocktail", width: 350 %>
+  <%= image_tag "cocktail.jpg", alt: "Cocktail", width: 350 %>
   <p class="title"><i class="fas fa-cocktail"></i> Your Only Choices <i class="fas fa-cocktail"></i></p>
   <ul style="list-style: none; margin: 3px;">
   <% @cocktails.each do | cocktail | %>
-    <li class="col-sm-4 col-xs-12"><%= link_to cocktail.name, cocktail_path(cocktail.id)  %></li>
+
+    <p class="col-sm-4 col-xs-12 ninety"><%= link_to cocktail.name, cocktail_path(cocktail.id)  %></p>
+
   <% end %>
   </ul>
   <div>

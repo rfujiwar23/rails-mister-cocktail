@@ -46,8 +46,6 @@ header .overlay {
 }
 
 
-@charset "UTF-8";
-/* CSS Document */
 
 .header {
     display: block;
@@ -192,8 +190,11 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   font-size: 36px;
   }
 
+  p.ninety {
+    font-size: 20px;
+    text-align:left;
 
-
+  }
   i {
     font-size:22px;
     color:#FDB630;
@@ -201,16 +202,45 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   }
 }
 
+.awesome {
+  width: 400px;
+  margin: 100px auto;
+  background-image: url('pattern.jpg');
+}
+
+.awesome {
+  h2 {
+    color: red;
+    text-shadow: 1px 1px 1px #fff;
+    text-align:center;
+  }
+  p.text {
+    font-size:18px;
+  }
+}
+
 
 .put_your {
   width:600px;
   margin:0 auto;
-  background: #FDB630;
+  background-image: url('pattern.jpg');
   padding: 10px;
 }
 
 .put_your {
+  .btn-primary {
+    font-style: italic;
+    text-shadow: 1px 1px 1px #000;
+    border-radius:5px;
+    border:1px solid #000;
+  }
 
+  .put_your {
+    .btn-primary:hover {
+      text-decoration:underline;
+      background: #2c3e50;
+    }
+  }
 }
 
 
