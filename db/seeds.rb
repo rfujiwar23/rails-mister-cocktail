@@ -9,6 +9,7 @@ Ingredient.create(name: "lemon")
 Ingredient.create(name: "ice")
 Ingredient.create(name: "mint leaves")
 
-Cocktail.create(name: "Illinois")
-Cocktail.create(name: "It's Sunny")
-Cocktail.create(name: "Wasted Up")
+url = "http://static.giantbomb.com/uploads/original/9/99864/2419866-nes_console_set.png"
+article = Cocktail.new(name: 'NES')
+article.remote_photo_url = url
+article.save
