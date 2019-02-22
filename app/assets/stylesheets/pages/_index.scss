@@ -202,10 +202,23 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   }
 }
 
+.ninety {
+  background: #fff;
+  margin:3px;
+  width:30%;
+}
+
+.ninety {
+  p {
+    font-size: 16px;
+    padding-top: 6px;
+  }
+}
 .awesome {
-  width: 400px;
+  width: 45%;
   margin: 100px auto;
   background-image: url('pattern.jpg');
+  border-radius: 20px;
 }
 
 .awesome {
@@ -221,10 +234,11 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 
 
 .put_your {
-  width:600px;
+  width:70%;
   margin:0 auto;
   background-image: url('pattern.jpg');
   padding: 10px;
+  border-radius: 5px;
 }
 
 .put_your {
@@ -258,6 +272,21 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   header {
     height:35vh;
   }
+
+  .put_your, .awesome {
+    width:95%;
+  }
+
+  .ninety {
+    width:90%;
+    margin:5px auto;
+  }
+
+.ninety {
+  p {
+    font-size: 12px;
+  }
+}
 
   .container {
     h1 {

@@ -47,7 +47,9 @@
   <ul style="list-style: none; margin: 3px;">
   <% @cocktails.each do | cocktail | %>
 
-    <p class="col-sm-4 col-xs-12 ninety"><%= link_to cocktail.name, cocktail_path(cocktail.id)  %></p>
+    <div class="col-sm-4 col-xs-12 ninety">
+      <p><%= link_to cocktail.name, cocktail_path(cocktail.id)  %></p>
+      </div>
 
   <% end %>
   </ul>
