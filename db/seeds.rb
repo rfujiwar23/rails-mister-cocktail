@@ -8,3 +8,7 @@
 Ingredient.create(name: "lemon")
 Ingredient.create(name: "ice")
 Ingredient.create(name: "mint leaves")
+
+Cocktail.create(name: "Illinois")
+Cocktail.create(name: "It's Sunny")
+Cocktail.create(name: "Wasted Up")

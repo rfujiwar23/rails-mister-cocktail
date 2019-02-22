@@ -42,7 +42,7 @@
     <p><%= link_to "+ Add Your Own", new_cocktail_path, class: "btn btn-info" %><p>
 
 
-  <%= image_tag 'cocktail.jpg', :size =>'320x480'　%>
+<%= image_tag "cocktail.jpg", alt: "Cocktail", width: 350 %>
   <p class="title"><i class="fas fa-cocktail"></i> Your Only Choices <i class="fas fa-cocktail"></i></p>
   <ul style="list-style: none; margin: 3px;">
   <% @cocktails.each do | cocktail | %>
